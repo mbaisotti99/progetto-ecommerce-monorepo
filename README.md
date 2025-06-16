@@ -1,5 +1,11 @@
 # Progetto Bool Commerce
 
+## Inizializzazione
+
+1. Avviare setup-proj.bat
+2. Configurare file env sia per front che per back
+3. Copiare contenuto della cartella public-storage.back in backoffice/public/storage  
+
 ## Obbiettivo
 
 Riprodurre un classico sito di E-Commerce per l'acquisto di articoli di abbigliamento.
