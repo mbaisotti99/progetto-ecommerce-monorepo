@@ -1,0 +1,41 @@
+@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
+body, html{
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 !important;
+}
+
+.cleanList{
+    list-style: none;
+}
+
+i.bi{
+    font-size: 55px;
+    display: block;
+}
+
+
+header{
+    min-height: 200px;
+    background-color: rgb(69, 107, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navBar{
+    display: flex;
+    gap: 25px;
+    color: white;
+    font-size: 25px;
+}
+

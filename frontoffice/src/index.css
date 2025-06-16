@@ -1,0 +1,233 @@
+html,
+body,
+#root {
+  height: 100% !important;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 !important;
+  padding-top: 130px;
+}
+
+.cleanList {
+  list-style: none;
+}
+
+.cent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.hot {
+  background-color: red;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hot p {
+  position: relative;
+  top: 7px;
+  left: 5px;
+}
+
+
+/* Header */
+
+header {
+  min-height: 120px;
+  background-color: rgb(69, 107, 189);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-bottom: 130px;
+}
+
+.navBar {
+  display: flex;
+  gap: 25px;
+  color: white;
+  font-size: 25px;
+}
+
+.navBar li {
+  color: white;
+}
+
+.toolsLinks {
+  display: flex;
+  gap: 45px;
+  color: white;
+  align-items: center;
+}
+
+.navLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+li>a:hover {
+  color: rgb(145, 145, 145);
+  transition: ease-in-out 0.5s;
+}
+
+.headTools {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Footer */
+
+footer {
+  height: 120px;
+  background-color: rgb(69, 107, 189);
+  color: white;
+  display: flex;
+  gap: 50px;
+  padding: 0px 50px;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer ul li a{
+  font-size: 14px;
+}
+
+.card-img-top {
+  max-width: 100% !important;
+}
+
+
+/* Details */
+
+.oldPrice{
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.discountedPrice{
+  color: red;
+  font-weight: bolder;
+}
+
+.price{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.detCont {
+  display: flex;
+  max-height: 100vh;
+}
+
+.prodCont {
+  width: 400%;
+  max-height: 100%;
+}
+
+.revCont {
+  width: 600%;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.revBox {
+  padding: 15px;
+}
+
+.buy{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Advanced Research */
+
+.advRes {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.advRes>.col-6 {
+  margin-bottom: 10px;
+}
+
+.resultContAdv {
+  margin: 25px 0;
+}
+
+.disc{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Slider prezzo */
+
+.slideDiv {
+  width: 100%;
+  padding: 15px 0;
+}
+
+/* Index */
+
+.orderBy{
+  display: flex;
+  gap: 15px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.orderBy label{
+  width: 200px;
+}
+
+.ascDesc > *{
+  margin-right: 30px;
+}
+
+.pagination {
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageBtn {
+  border: 1px solid rgb(69, 107, 189);
+}
+
+.firstPage .pageBtn {
+  border: 1px solid rgb(69, 107, 189);
+  border-radius: 5px 0 0 5px;
+}
+
+.lastPage .pageBtn {
+  border: 1px solid rgb(69, 107, 189);
+  border-radius: 0 5px 5px 0;
+}
