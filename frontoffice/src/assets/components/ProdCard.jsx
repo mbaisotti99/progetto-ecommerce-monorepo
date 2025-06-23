@@ -43,7 +43,7 @@ const ProdCard = ({ prod }) => {
                 }
             </div>
             <p className="card-text">
-                {prod.average_rating.toFixed(2)}
+                {prod.average_rating !== null ? prod.average_rating.toFixed(2) : "N.D."}
                 <i className="bi-star-fill ms-1" style={{ color: "gold" }}></i>
             </p>
             <a href={"/prods/" + prod.id} className="btn btn-primary mt-2 fs-3">Dettagli</a>
